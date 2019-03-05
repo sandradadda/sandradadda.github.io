@@ -1,0 +1,475 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    /* padding: 10px; */
+    /* overflow: hidden; */
+    padding-inline-start:0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+}
+.logo {
+    width: 100px;
+    top: 25px;
+    left: 12px;
+    position: absolute;
+}
+.tsalogo {
+    width: 180px;
+    top: 12px;
+    position: absolute;
+    left: 100px;
+
+}
+.parallax {
+
+    background-image: url(atlanta.jpg);
+    background-size: cover;
+    min-height: 850px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tsatitle {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    letter-spacing:0px;
+    font-weight: bold;
+    font-weight: 900px;
+    font-size: 60px;
+    padding-top: 200px;
+    margin-top: 0;
+    color: rgb(235, 233, 233);
+    margin-bottom: 0px;
+}
+#tsamotto {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 1px;
+    color: rgb(235, 233, 233);
+
+}
+.mission {
+    background-color: white;
+    min-height: 850px;
+}
+.tsamission {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: center;
+    letter-spacing: 15.4px;
+    font-weight: bolder;
+    font-size: 44px;
+    font-stretch: 100%;
+    margin-top: 0px;
+    padding-top:80px;
+}
+.tsamissionpara {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-left: 300px;
+    line-height: 30px;
+    margin-right: 300px;
+    padding-top: 10px;
+}
+.creed {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: center;
+    letter-spacing: 15.4px;
+    font-weight: bolder;
+    font-size: 44px;
+    font-stretch: 100%;
+    margin-top: 0px;
+    padding-top:20px;
+}
+.creedpara1 {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-left: 300px;
+    line-height: 30px;
+    margin-right: 300px;
+    padding-top: 10px;
+}
+.creedpara2 {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-left: 300px;
+    line-height: 30px;
+    margin-right: 300px;
+    padding-top: 10px;
+}
+.chapter {
+    background-image: url(chapterpic2.jpg);
+    background-size: cover;
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chaptertitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: center;
+    letter-spacing: 15.4px;
+    font-weight: bolder;
+    font-size: 44px;
+    font-stretch: 100%;
+    margin-top: 0px;
+    padding-top:80px;
+    color: white;
+}
+.historytitle{
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: white;
+    padding-top: 10px;
+}
+.historypara {
+    font-family: 'futura-pt', sans-serif;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 30px;
+    margin-right: 300px;
+    padding-top: 10px;
+    color: white;
+}
+.awards {
+    min-height: 500px;
+    
+}
+.awardstitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: black;
+    padding-top: 10px;
+}
+.first {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    padding-top: 2px;
+}
+.second {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 30px;
+    padding-top: 2px;
+}
+.award1 {
+    position: absolute;
+    right: 430px;
+    top: 2255px;
+    height:30%;
+}
+.award2 {
+    position: absolute;
+    right: 210px;
+    top: 2460px;
+    height: 35%;
+}
+.award3{
+    position: absolute;
+    right: 70px;
+    top: 2270px;
+    height: 27%;
+}
+.second2 {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 30px;
+    padding-top: 2px;
+    position: absolute;
+    left: 113px;
+    top: 2400px;
+}
+.second3 {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 30px;
+    padding-top: 2px;
+    position: absolute;
+    left: 113px;
+    top: 2440px;
+}
+.second4 {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 30px;
+    padding-top: 2px;
+    position: absolute;
+    left: 113px;
+    top: 2480px;
+}
+.second5 {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 30px;
+    padding-top: 2px;
+    position: absolute;
+    left: 113px;
+    top: 2520px;
+}
+.third {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 30px;
+    padding-top: 160px;
+    letter-spacing: 2px;
+}
+.third2 {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    padding-top: 2px;
+    position: absolute;
+    left: 130px;
+    top: 2600px;
+}
+.third3 {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    padding-top: 2px;
+    position: absolute;
+    left: 130px;
+    top: 2640px;
+}
+.activities {
+    background-color: white;
+    
+}
+.activitiestitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: black;
+    padding-top: 30px;
+}
+.generalmeetings {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    color: black;
+    padding-top: 10px;
+
+}
+.genpara {
+    padding-top: 5px;
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: black;
+}
+.offmeeting {
+    height: 35%;
+    position: absolute;
+    top:  3005px;
+    left: 80px;
+}
+.genmeeting {
+    height: 35%;
+    position: absolute;
+    top: 3005px;
+    left: 510px;
+}
+.genmeeting2 {
+    height: 30%;
+    position:absolute;
+    top: 3005px;
+    right: 40px;
+}
+.leadconf {
+    background-color: white;
+}
+.leadconftitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    color: black;
+    padding-top: 300px;
+}
+.leadconfpara {
+    padding-top: 2px;
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: black;
+}
+.leadpic1 {
+    height: 35%;
+    position: absolute;
+    top: 3425px;
+    left: 80px;
+}
+.leadpic2 {
+    height: 35%;
+    position:absolute;
+    top: 3425px;
+    left: 430px;
+}
+.leadpic3{
+    height: 35%;
+    position:absolute;
+    top: 3425px;
+    right: 60px;
+}
+.icetitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: left;
+    font-size: 27px;
+    letter-spacing: 3px;
+    margin-left: 60px;
+    color: black;
+    padding-top: 290px;
+}
+.pretztitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: right;
+    font-size: 27px;
+    letter-spacing: 3px;
+    margin-left: 60px;
+    color: black;
+    position: absolute;
+    top: 3700px;
+    right: 150px;
+}
+.fundpara {
+    padding-top: -1px;
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: black;
+}
+.icepic1 {
+    height: 30%;
+    position: absolute;
+    top: 3820px;
+    left: 20px;
+}
+.icepic2 {
+    height: 30%;
+    position: absolute;
+    top: 3820px;
+    left: 432px;
+}
+.pretpic1 {
+    height: 25%;
+    position: absolute;
+    top: 3820px;
+    left: 785px;
+}
+.pretpic2 {
+    height: 30%;
+    position: absolute;
+    top: 3820px;
+    right: 20px;
+}
+.blank{
+    color: white;
+    padding-top: 250px;
+}
+.officer {
+/*     
+    background-image: url(officerpic.jpg);
+    background-size: cover;
+    min-height: 800px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.officertitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: white;
+    position: absolute;
+    top: 4150px;
+    right: 560px;
+}

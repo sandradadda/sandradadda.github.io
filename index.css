@@ -1,0 +1,285 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    /* padding: 10px; */
+    /* overflow: hidden; */
+    padding-inline-start:0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    max-height: 700px;
+    margin: 0 auto;
+}
+.parallax {
+    background-image: url(bravozulu.jpg);
+    background-size: cover;
+    min-height: 850px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#title {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    letter-spacing:0px;
+    font-weight: bold;
+    font-weight: 900px;
+    font-size: 60px;
+    padding-top: 200px;
+    margin-top: 0;
+    color: rgb(235, 233, 233);
+    margin-bottom: 0px;
+}
+#sandyhook {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: light;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(235,233,233)
+}
+
+.logo {
+    width: 100px;
+    top: 25px;
+    left: 12px;
+    position: absolute;
+}
+.mission {
+    min-height: 750px;
+    background-image: url(blurry.jpg);
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-top: -30px;
+
+}
+.missiontitle {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    text-align: center;
+    letter-spacing: 15.4px;
+    font-weight: bolder;
+    font-size: 44px;
+    font-stretch: 100%;
+    margin-top: 0px;
+    padding-top:250px;
+    color: white;
+}
+.missionpara {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-left: 300px;
+    line-height: 30px;
+    margin-right: 300px;
+    padding-top: 10px;
+    color: white;
+}
+.biglogo {
+    position:absolute;
+    width: 200px;
+    padding-top: 17px;
+    margin-left: 605px;
+}
+.programs {
+    background-color: white;
+    min-height: 1000px;
+
+}
+.courses {
+    color: black;
+    text-align: center;
+    font-family: 'ff-tisa-web-pro', sans-serif;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    font-size: 45px;
+    padding-top: 70px;
+}
+.cad {
+    font-family: 'ff-tisa-web=pro', sans-serif;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-right: 450px;
+    font-size: 25px;
+    padding-top: 60px;
+}
+.cadpara {
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing:0px;
+    text-align: center;
+    font-weight: 500px;
+    margin-left: 420px;
+    margin-right: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.cadinfo {
+    font-family: "futura-pt", sans-serif;
+    letter-spacing: 0px;
+    text-align: right;
+    font-size: 16px;
+    padding-top: 2px;
+    margin-right: 100px;
+    font-weight: bold;
+
+}
+.inventorpic {
+    height: 31%;
+    position: absolute;
+    top: 1800px;
+    left: 50px;
+}
+.tech {
+    font-family: "ff-tisa-web-pro", sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-right: 450px;
+    font-size: 25px;
+    padding-top: 60px;
+}
+.techparapic {
+    display: flex;
+}
+.catship {
+    /* width: 15%; */
+    height: 40%;
+    position: absolute;
+    left: 1200px;
+    top: 2080px;
+}
+.pirate {
+    height: 35%;
+    position: absolute;
+    right: 195px;
+    top: 2190px;
+}
+.techpara {
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing:0px;
+    text-align: left;
+    font-weight: 500px;
+    /* margin-right: 520px;
+    margin-left: 50px; */
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 10px;
+    position: absolute;
+    right: 500px;
+    left: 20px;
+    
+}
+.techinfo {
+    font-family: "futura-pt", sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 2px;
+    margin-left: 100px;
+    font-weight: bold;
+    /* white-space: nowrap; */
+    position: absolute;
+    top: 2350px;
+ 
+}
+.techteacher {
+    font-family: "Nanum Gothic", sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 80px;
+    padding-top: 3px;
+    margin-right: 520px;
+    /* white-space: nowrap; */
+    position: absolute;
+    top: 2370px;
+
+
+}
+
+.systems {
+    font-family: 'ff-tisa-web=pro', sans-serif;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-right: 450px;
+    font-size: 25px;
+    padding-top: 300px;
+    
+
+}
+.systemspara{
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing:0px;
+    text-align: right;
+    font-weight: 500px;
+    margin-left: 300px;
+    margin-right: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.systemsinfo {
+    font-family: "futura-pt", sans-serif;
+    letter-spacing: 0px;
+    text-align: right;
+    font-size: 16px;
+    padding-top: 2px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+.systems1 {
+    height: 42%;
+    position: absolute;
+    top: 2770px;
+    left: 50px;
+}
+.systems2 {
+    height: 42%;
+    position: absolute;
+    top: 2770px;
+    left: 440px;
+}
+.systems3 {
+    height: 42%;
+    position: absolute;
+    top: 2770px;
+    right: 340px;
+}

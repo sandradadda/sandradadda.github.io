@@ -1,0 +1,1205 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    /* padding: 10px; */
+    overflow: hidden;
+    padding-inline-start:0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    /* position: absolute;
+    top: 10px;
+    right: 10px; */
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin: 0px;
+    
+
+    
+}
+
+html {
+    height: 100%;
+}
+/* .logo {
+    width: 100px;
+    top: 25px;
+    left: 12px;
+    position: absolute;
+} */
+#myVideo {
+
+    /* background-image: url(bandpic.jpg); */
+    background-size: cover !important;
+    min-height: 810px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-y: 10px;
+    
+    
+}
+.bandtitle {
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    position: absolute; 
+    font-size: 49px;
+    top: 30px;
+    left:110px;
+    letter-spacing: -3px;
+    font-weight: 800px;
+
+}
+.single {
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    position: absolute; 
+    top: 570px;
+    left: 110px;
+    letter-spacing: 5px;
+    font-weight: 500px;
+    font-size: 25px;
+}
+.honey {
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    position: absolute; 
+    top: 573px;
+    left: 110px;
+    letter-spacing: -3px;
+    font-weight: 500px;
+    font-size: 55px;
+}
+.yellow {
+    min-height: 3px;
+    color: rgb(167, 167, 8);
+}
+.bio {
+    min-height: 500px;
+    background-color: white;
+    /* display: inline; */
+}
+.biopic{
+    align-content: left;
+    position: absolute;
+    top: 880px;
+    width: 39%;
+    left: 35px;
+}
+.biotitle {
+    font-family: "futura-pt", sans-serif;
+    left: 730px;
+    top: 880px;
+    color:black;
+    position: absolute;
+}
+.biopara {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    /* margin-left: 300px; */
+    line-height: 30px;
+    /* margin-right: 300px; */
+    /* padding-top: 10px; */
+    position: absolute;
+    top: 940px;
+    left: 610px;
+    right: 20px;
+}
+.biopara2 {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    /* margin-left: 300px; */
+    line-height: 30px;
+    /* margin-right: 300px; */
+    /* padding-top: 10px; */
+    position: absolute;
+    top: 1040px;
+    left: 610px;
+    right: 20px;
+}
+.biopara3 {
+    font-family: 'futura-pt', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    /* margin-left: 300px; */
+    line-height: 30px;
+    /* margin-right: 300px; */
+    /* padding-top: 10px; */
+    position: absolute;
+    top: 1230px;
+    left: 610px;
+    right: 20px;
+}
+.tour {
+    background-image: url(backband.jpg);
+    background-size: cover;
+    min-height: 1000px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    image-orientation: 90deg;
+}
+.tourtitle {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    color: white; 
+    font-size: 37px;
+    padding-top: 55px;
+    padding-left: 130px;
+    letter-spacing: -2px;
+    font-weight: 800px;
+    /* line-height: 4px; */
+}
+.date1 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1520px;
+    left: 130px;
+}
+.year1 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1540px;
+    left: 130px;
+}
+.arena1 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1515px;
+    left: 250px;
+}
+.loc1 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1550px;
+    left: 250px;
+}
+.date2 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1600px;
+    left: 130px;
+}
+.year2 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1620px;
+    left: 130px;
+}
+.arena2 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1595px;
+    left: 250px;
+}
+.loc2 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1630px;
+    left: 250px;
+}
+.date3{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1680px;
+    left: 130px;
+}
+.year3 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1700px;
+    left: 130px;
+}
+.arena3 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1675px;
+    left: 250px;
+}
+.loc3 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1710px;
+    left: 250px;
+}
+.date4 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1760px;
+    left: 130px;
+}
+.year4 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1780px;
+    left: 130px;
+}
+.arena4 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1755px;
+    left: 250px;
+}
+.loc4 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1790px;
+    left: 250px;
+}
+.date5 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1840px;
+    left: 130px;
+}
+.year5 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1860px;
+    left: 130px;
+}
+.arena5 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1835px;
+    left: 250px;
+}
+.loc5 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1870px;
+    left: 250px;
+}
+.date6 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1920px;
+    left: 130px;
+}
+.year6 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1940px;
+    left: 130px;
+}
+.arena6 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1915px;
+    left: 250px;
+}
+.loc6 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1950px;
+    left: 250px;
+}
+.date7 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2000px;
+    left: 130px;
+}
+.year7 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2020px;
+    left: 130px;
+}
+.arena7 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1995px;
+    left: 250px;
+}
+.loc7 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2030px;
+    left: 250px;
+}
+.date8 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2080px;
+    left: 130px;
+}
+.year8 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2100px;
+    left: 130px;
+}
+.arena8 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 2075px;
+    left: 250px;
+}
+.loc8 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2110px;
+    left: 250px;
+}
+.date9 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2160px;
+    left: 130px;
+}
+.year9 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2180px;
+    left: 130px;
+}
+.arena9 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 2155px;
+    left: 250px;
+}
+.loc9 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2190px;
+    left: 250px;
+}
+.date10 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2240px;
+    left: 130px;
+}
+.year10 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2260px;
+    left: 130px;
+}
+.arena10 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 2235px;
+    left: 250px;
+}
+.loc10 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2270px;
+    left: 250px;
+}
+.date11 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1520px;
+    left: 650px;
+}
+.year11 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1540px;
+    left: 650px;
+}
+.arena11 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1515px;
+    left: 770px;
+}
+.loc11 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1550px;
+    left: 770px;
+}
+.date12 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1600px;
+    left: 650px;
+}
+.year12 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1620px;
+    left: 650px;
+}
+.arena12 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1595px;
+    left: 770px;
+}
+.loc12 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1630px;
+    left: 770px;
+}
+.date13 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1680px;
+    left: 650px;
+}
+.year13 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1700px;
+    left: 650px;
+}
+.arena13 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1675px;
+    left: 770px;
+}
+.loc13 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1710px;
+    left: 770px;
+}
+.date14 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1760px;
+    left: 650px;
+}
+.year14 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1780px;
+    left: 650px;
+}
+.arena14 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1755px;
+    left: 770px;
+}
+.loc14 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1790px;
+    left: 770px;
+}
+.date15 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1840px;
+    left: 650px;
+}
+.year15 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1860px;
+    left: 650px;
+}
+.arena15 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1835px;
+    left: 770px;
+}
+.loc15 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1870px;
+    left: 770px;
+}
+.date16 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1920px;
+    left: 650px;
+}
+.year16 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 1940px;
+    left: 650px;
+}
+.arena16 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1915px;
+    left: 770px;
+}
+.loc16 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 1950px;
+    left: 770px;
+}
+.date17 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2000px;
+    left: 650px;
+}
+.year17 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2020px;
+    left: 650px;
+}
+.arena17 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 1995px;
+    left: 770px;
+}
+.loc17 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2030px;
+    left: 770px;
+}
+.date18 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2080px;
+    left: 650px;
+}
+.year18 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2100px;
+    left: 650px;
+}
+.arena18 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 2075px;
+    left: 770px;
+}
+.loc18 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2110px;
+    left: 770px;
+}
+.date19 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2160px;
+    left: 650px;
+}
+.year19 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2180px;
+    left: 650px;
+}
+.arena19 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 2155px;
+    left: 770px;
+}
+.loc19 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2190px;
+    left: 770px;
+}
+.date20 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2240px;
+    left: 650px;
+}
+.year20 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: absolute;
+    top: 2260px;
+    left: 650px;
+}
+.arena20 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 23px;
+    position: absolute;
+    top: 2235px;
+    left: 770px;
+}
+.loc20 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    position: absolute;
+    top: 2270px;
+    left: 770px;
+}
+.emailbox {
+    background-color: black;
+    min-height: 180px;
+    margin-top: -25px;
+}
+.date {
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: 900px;
+    font-size: 32px;
+    letter-spacing: -3px;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+.subscribe {
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin-top: -21px;
+    padding-left: 90px;
+    padding-right: 840px;
+}
+.email {
+    font-family: "Nanum Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 28px;
+    width: 200px;
+    background: transparent;
+    position: absolute;
+    top: 2460px;
+    right: 600px;
+    color: white;
+}
+.submit {
+    background: transparent;
+    height: 30px;
+    width: 90px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 2460px;
+    right:490px;
+    
+}
+.spotify {
+    background-image: url(bandpic.jpg);
+    background-size: cover !important;
+    min-height: 510px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+}
+.listento {
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 3.3px;
+    /* margin-top: -21px; */
+    padding-left: 110px;
+    padding-top: 90px;
+    
+}
+.albumname{
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 39px;
+    letter-spacing: -1px;
+    margin-top: -21px;
+    padding-left: 110px;
+    padding-top: 8px;
+}
+.stream {
+    font-family: "futura-pt", sans-serif;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1.6px;
+    padding-left: 110px;
+    padding-top: 20px; 
+}
+.spotbutton {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "futura-pt", sans-serif;
+    color: #bf8e0e;
+    background-color: white;
+    border: 1.6px solid #bf8e0e;
+    border-radius: 1px;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-align: left;
+    padding: 10px 20px 10px 10px;
+    font-size: 11.5px;
+    width: 164px;
+    height: 14px;
+    position: absolute;
+    left: 110px;
+    top: 2780px;
+}
+.youtubebutton {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "futura-pt", sans-serif;
+    color: #bf8e0e;
+    background-color: white;
+    border: 1.6px solid #bf8e0e;
+    border-radius: 1px;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-align: left;
+    padding: 10px 20px 10px 10px;
+    font-size: 11.5px;
+    width: 164px;
+    height: 14px;
+    position: absolute;
+    left: 110px;
+    top: 2830px;
+}
+.poster {
+    height: 35%;
+    position: absolute;
+    top: 2660px;
+    left: 600px;
+}
