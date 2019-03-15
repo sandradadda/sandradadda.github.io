@@ -114,52 +114,56 @@ html {
     /* display: inline; */
 }
 .biopic{
-    align-content: left;
-    position: absolute;
+    float: left;
+    margin-right: 20px;
+    height: 250px;
+    padding-left: 100px;
+    /* align-content: left; */
+    /* position: absolute;
     top: 880px;
     width: 39%;
-    left: 35px;
+    left: 35px; */
 }
 .biotitle {
     font-family: "futura-pt", sans-serif;
-    left: 730px;
-    top: 880px;
+    /* left: 730px;
+    top: 880px; */
     color:black;
-    position: absolute;
+    padding-left: 700px;
+    /* position: absolute; */
 }
 .biopara {
     font-family: 'futura-pt', sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
     letter-spacing: 1.5px;
     font-size: 15px;
+    margin-left: 10px;
     /* margin-left: 300px; */
     line-height: 30px;
     /* margin-right: 300px; */
     /* padding-top: 10px; */
-    position: absolute;
+    /* position: absolute;
     top: 940px;
     left: 610px;
-    right: 20px;
+    right: 20px; */
 }
 .biopara2 {
     font-family: 'futura-pt', sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
     letter-spacing: 1.5px;
     font-size: 15px;
+    padding-left: 575px;
     /* margin-left: 300px; */
     line-height: 30px;
     /* margin-right: 300px; */
     /* padding-top: 10px; */
-    position: absolute;
-    top: 1040px;
-    left: 610px;
-    right: 20px;
+    
 }
 .biopara3 {
     font-family: 'futura-pt', sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
     letter-spacing: 1.5px;
     font-size: 15px;
@@ -167,13 +171,10 @@ html {
     line-height: 30px;
     /* margin-right: 300px; */
     /* padding-top: 10px; */
-    position: absolute;
-    top: 1230px;
-    left: 610px;
-    right: 20px;
+    padding-left: 570px;
 }
 .tour {
-    background-image: url(backband.JPG);
+    background-image: url(backband.jpg);
     background-size: cover;
     min-height: 1000px;
 
