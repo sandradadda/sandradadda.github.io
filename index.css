@@ -172,6 +172,7 @@ html {
     background-color: white;
     position: relative;
     min-height: 20px;
+}
 .tech {
     font-family: "ff-tisa-web-pro", sans-serif;
     letter-spacing: 0px;
@@ -234,6 +235,7 @@ html {
 .systemsdiv {
     position: relative;
     background-color: white;
+}
 .systems {
     font-family: 'ff-tisa-web=pro', sans-serif;
     letter-spacing: 0px;
