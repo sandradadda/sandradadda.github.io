@@ -48,7 +48,7 @@ html {
 }
 .parallax {
 
-    background-image: url(atlanta.JPG);
+    background-image: url(atlanta.jpg);
     background-size: cover;
     min-height: 850px;
 
@@ -136,7 +136,7 @@ html {
     padding-top: 10px;
 }
 .chapter {
-    background-image: url(chapterpic2.JPG);
+    background-image: url(chapterpic2.jpg);
     background-size: cover;
     min-height: 500px;
 
@@ -183,123 +183,116 @@ html {
 .awardstitle {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 35px;
-    letter-spacing: 3px;
-    margin-left: 50px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-left: 90px;
     color: black;
     padding-top: 10px;
 }
 .first {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin-left: 30px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-left: 50px;
     padding-top: 2px;
+    font-weight: normal;
 }
 .second {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin-left: 30px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-left: 50px;
     padding-top: 2px;
+    font-weight: normal;
 }
 .award1 {
-    position: absolute;
-    right: 430px;
-    top: 2255px;
-    height:30%;
+    height: 200px;
+    float: right;
 }
 .award2 {
-    position: absolute;
-    right: 210px;
-    top: 2460px;
-    height: 35%;
+    height: 220px;
+    float: right;
+    padding-right: 270px;
+    margin-top: -25px;
+    
 }
 .award3{
-    position: absolute;
-    right: 70px;
-    top: 2270px;
-    height: 27%;
+    height: 200px;
+    float: right;
+    padding-right: 100px;
+    
 }
 .second2 {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 0px;
-    margin-left: 30px;
-    padding-top: 2px;
-    position: absolute;
-    left: 113px;
-    top: 2400px;
+    margin-left: 160px;
+    /* padding-top: 0px; */
+    font-weight: normal;
 }
 .second3 {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 0px;
-    margin-left: 30px;
-    padding-top: 2px;
-    position: absolute;
-    left: 113px;
-    top: 2440px;
+    margin-left: 160px;
+    /* padding-top: 2px; */
+    font-weight: normal;
+    
 }
 .second4 {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 0px;
-    margin-left: 30px;
-    padding-top: 2px;
-    position: absolute;
-    left: 113px;
-    top: 2480px;
+    margin-left: 160px;
+    /* padding-top: 2px; */
+    font-weight: normal;
 }
 .second5 {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 0px;
-    margin-left: 30px;
-    padding-top: 2px;
-    position: absolute;
-    left: 113px;
-    top: 2520px;
+    margin-left: 160px;
+    /* padding-top: 2px; */
+    font-weight: normal;
 }
 .third {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 0px;
-    margin-left: 30px;
-    padding-top: 160px;
-    letter-spacing: 2px;
+    margin-left: 50px;
+    font-weight: normal;
+    
+    
 }
 .third2 {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
-    letter-spacing: 1px;
-    margin-left: 30px;
-    padding-top: 2px;
-    position: absolute;
-    left: 130px;
-    top: 2600px;
+    font-size: 22px;
+    margin-left: 145px;
+    padding-top: 0px;
+    font-weight: normal;
+
 }
 .third3 {
     font-family: "ff-tisa-web-pro", sans-serif;
     text-align: left;
-    font-size: 25px;
-    letter-spacing: 1px;
-    margin-left: 30px;
-    padding-top: 2px;
-    position: absolute;
-    left: 130px;
-    top: 2640px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    margin-left: 145px;
+    font-weight: normal;
+    
+    
 }
 .activities {
     background-color: white;
+    position: relative;
     
 }
 .activitiestitle {
@@ -324,7 +317,7 @@ html {
 .genpara {
     padding-top: 5px;
     font-family: 'futura-pt', sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
     letter-spacing: 1px;
     font-size: 15px;
@@ -334,25 +327,27 @@ html {
     color: black;
 }
 .offmeeting {
-    height: 35%;
-    position: absolute;
-    top:  3005px;
-    left: 80px;
+    height: 250px;
+    float: left;
+    padding-left: 150px;
+    
 }
 .genmeeting {
-    height: 35%;
-    position: absolute;
-    top: 3005px;
-    left: 510px;
+    height: 250px;
+    float: left;
+    padding-left: 10px;
+    
 }
 .genmeeting2 {
-    height: 30%;
-    position:absolute;
-    top: 3005px;
-    right: 40px;
+    height: 250px;
+    float: left;
+    padding-left: 10px;
+    
 }
 .leadconf {
     background-color: white;
+    margin-top: 200px;
+
 }
 .leadconftitle {
     font-family: "ff-tisa-web-pro", sans-serif;
@@ -361,12 +356,14 @@ html {
     letter-spacing: 3px;
     margin-left: 40px;
     color: black;
-    padding-top: 300px;
+    padding-top: 100px;
+
+
 }
 .leadconfpara {
     padding-top: 2px;
     font-family: 'futura-pt', sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
     letter-spacing: 1px;
     font-size: 15px;
@@ -376,22 +373,23 @@ html {
     color: black;
 }
 .leadpic1 {
-    height: 35%;
-    position: absolute;
-    top: 3425px;
-    left: 80px;
+    height: 250px;
+    float: left;
+    padding-left: 140px;
+    
 }
 .leadpic2 {
-    height: 35%;
-    position:absolute;
-    top: 3425px;
-    left: 430px;
+    height: 250px;
+    padding-left: 10px;
+    
 }
 .leadpic3{
-    height: 35%;
-    position:absolute;
-    top: 3425px;
-    right: 60px;
+    height: 250px;
+    
+    
+}
+.fundraiser {
+    position: relative;
 }
 .icetitle {
     font-family: "ff-tisa-web-pro", sans-serif;
@@ -400,7 +398,8 @@ html {
     letter-spacing: 3px;
     margin-left: 60px;
     color: black;
-    padding-top: 290px;
+    position: absolute;
+    left: 120px;
 }
 .pretztitle {
     font-family: "ff-tisa-web-pro", sans-serif;
@@ -410,8 +409,8 @@ html {
     margin-left: 60px;
     color: black;
     position: absolute;
-    top: 3700px;
-    right: 150px;
+    top: 1px;
+    right: 250px;
 }
 .fundpara {
     padding-top: -1px;
@@ -424,30 +423,32 @@ html {
     margin-right: 100px;
     margin-left: 100px;
     color: black;
+    padding-top: 60px;
 }
 .icepic1 {
-    height: 30%;
+    height: 220px;
     position: absolute;
-    top: 3820px;
-    left: 20px;
+    top: 120px;
+    left: 50px;
 }
 .icepic2 {
-    height: 30%;
-    position: absolute;
-    top: 3820px;
-    left: 432px;
+    height: 220px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 430px;
 }
 .pretpic1 {
-    height: 25%;
+    height: 220px;
     position: absolute;
-    top: 3820px;
-    left: 785px;
+    top: 120px;
+    right: 380px;
 }
 .pretpic2 {
-    height: 30%;
+    height: 220px;
     position: absolute;
-    top: 3820px;
-    right: 20px;
+    top: 120px;
+    right: 60px;
+
 }
 .blank{
     color: white;
@@ -462,6 +463,7 @@ html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat; */
+    position: relative;
 }
 .officertitle {
     font-family: "ff-tisa-web-pro", sans-serif;
@@ -470,6 +472,6 @@ html {
     letter-spacing: 4px;
     color: white;
     position: absolute;
-    top: 4150px;
-    right: 560px;
+    top: 40px;
+    left: 540px;
 }
